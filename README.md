@@ -6,7 +6,9 @@ Application to allow you to search for books online, then to pick them up at the
 ## Configuration
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 
-So you will need NodeJS, React and Yarn installed in order to run this app
+### **1. Dynamic/served version :**
+
+You will need NodeJS, React and Yarn installed in order to run this app
 
 [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
 
@@ -16,9 +18,17 @@ An excellent OpenClassRoom's tutorial for beginners :
 
 [Yarn installation](https://classic.yarnpkg.com/fr/docs/install)
 
-
 **You will also need an .env file at project's root to specify your Google API key var**
 `REACT_APP_GOOGLE_API_KEY='abcdefghijklmnop'`
+
+
+### **2. Local/static version :**
+
+Uncompress `build.zip` file, open `index.html` with your browser
+
+
+
+
 
 If you don't have already one : [https://developers.google.com/books/docs/v1/using#APIKey](https://developers.google.com/books/docs/v1/using#APIKey)
 

@@ -1,3 +1,23 @@
 .App {
+  padding: 1rem;
+  margin: 0;
+  min-width: 320px;
+}
+
+.App, button, input{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.App h1, .App h2{
   text-align: center;
+}
+
+.App h1{
+  background-color: #eff0f4;
+  height: 3rem;
+  line-height: 3rem;
+  font-size: 2rem;
+  color: #777;
+  border-radius: 0.3rem;
+  box-shadow: 0.1rem 0.1rem 0.1rem grey;
 }

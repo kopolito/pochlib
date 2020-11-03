@@ -1,23 +1,28 @@
 {
   "name": "pochlib",
   "version": "0.1.0",
-  "description" : "Application pour permettre de chercher des livres en ligne, puis de venir les récupérer à la librairie **La Plume enchantée**",
+  "description": "Application to allow you to search for books online, then to pick them up at the bookstore **La Plume enchantée**",
   "private": true,
-  "license" : "MIT",
+  "license": "MIT",
   "author": {
-    "name" : "Kopolito",
-    "email" : "kopolito@kopol.xyz"
+    "name": "Kopolito",
+    "email": "kopolito@kopol.xyz"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/kopolito/pochlib.git"
+    "type": "git",
+    "url": "https://github.com/kopolito/pochlib.git"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.12",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "dotenv": "^8.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-loading": "^2.0.3",
     "react-scripts": "3.4.3"
   },
   "scripts": {

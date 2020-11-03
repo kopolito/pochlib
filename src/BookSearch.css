@@ -1,0 +1,59 @@
+.BookSearch {
+  text-align: left;
+  padding-bottom: 0.6rem;
+}
+
+.BookSearch button, .BookSearch button:focus{
+  border-radius: 0.3rem;
+  text-align: center;
+  line-height: 2rem;
+  border: 1px solid;
+  color: white;
+  min-width: 30%;
+  margin-top: 0.6rem;
+  transition: all 300ms;
+  outline: none;
+}
+
+.BookSearch button:active{
+  background-color: white !important;
+  border-color: #CCC !important;
+  color: #CCC !important;
+}
+
+.BookSearch button:hover{
+  cursor: pointer;
+}
+
+.BookSearch button:disabled{
+  cursor: arrow;
+}
+
+.BookSearch button.green{
+  background-color: #469487;
+  border-color: #469487;
+}
+
+.BookSearch button.green:hover{
+  background-color: white;
+  border-color: #469487;
+  color: #469487;
+}
+
+.BookSearch button.red{
+  background-color: #df5a4b;
+  border-color: #df5a4b;
+}
+.BookSearch button.red:hover{
+  background-color: white;
+  border-color: #df5a4b;
+  color: #df5a4b;
+}
+
+.BookSearch .error {
+  color: #df5a4b;
+}
+
+.BookSearch .loading{
+  color: #df5a4b;
+}

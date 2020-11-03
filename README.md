@@ -1,8 +1,26 @@
 # Poch'lib
-Application pour permettre de chercher des livres en ligne, puis de venir les récupérer à la librairie **La Plume enchantée**
+Application to allow you to search for books online, then to pick them up at the bookstore **La Plume enchantée**
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Configuration
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+
+So you will need NodeJS, React and Yarn installed in order to run this app
+
+[https://nodejs.org/en/download/](https://nodejs.org/en/download/)
+
+An excellent OpenClassRoom's tutorial for beginners :
+[Démarrez-facilement-avec-create-react-app](https://openclassrooms.com/fr/courses/4664381-realisez-une-application-web-avec-react-js/4664801-demarrez-facilement-avec-create-react-app)
+
+
+[Yarn installation](https://classic.yarnpkg.com/fr/docs/install)
+
+
+**You will also need an .env file at project's root to specify your Google API key var**
+`REACT_APP_GOOGLE_API_KEY='abcdefghijklmnop'`
+
+If you don't have already one : [https://developers.google.com/books/docs/v1/using#APIKey](https://developers.google.com/books/docs/v1/using#APIKey)
 
 ## Available Scripts
 
@@ -16,11 +34,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `yarn build`
 
 Builds the app for production to the `build` folder.<br />
@@ -29,7 +42,27 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
+You can then serve your app build using 'serve'
+
+```
+yarn global add serve
+
+serve -s build
+```
+
+Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
+
+You can adjust listening port :
+```
+serve -s build -l 4000
+```
+
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `yarn test`
+
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `yarn eject`
 
@@ -49,24 +82,24 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+[Code splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
 ### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+[Analyzing the bundle size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
 ### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+[Making a progressive web app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
 ### Advanced Configuration
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+[Advanced configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+[Deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `yarn build` fails to minify
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+[npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

@@ -51,6 +51,10 @@
   color: #df5a4b;
 }
 
+.BookSearch button.add{
+  margin: .6rem auto 0 auto;
+}
+
 .BookSearch .error {
   color: #df5a4b;
 }
@@ -58,7 +62,6 @@
 .BookSearch .loading{
   color: #df5a4b;
 }
-
 
 @media (min-width: 1024px) {
   .BookSearch button{

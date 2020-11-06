@@ -1,6 +1,6 @@
 {
   "name": "pochlib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Application to allow you to search for books online, then to pick them up at the bookstore **La Plume enchantée**",
   "private": true,
   "license": "MIT",

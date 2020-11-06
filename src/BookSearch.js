@@ -80,7 +80,7 @@ class BookSearch extends Component {
           cancelSearch={() => this.cancelSearch()}
         />
         ) : (
-          <center><button onClick={() => this.displayForm()} className="green">Ajouter un livre</button></center>
+          <button onClick={() => this.displayForm()} className="green add">Ajouter un livre</button>
         )}
         {showForm && (<button className="red" onClick={this.cancelSearch}>Annuler</button>)}
         {searching && ( <center><ReactLoading className="loading" type="cylon" color="#999" height={100} width={100} /></center>)}
